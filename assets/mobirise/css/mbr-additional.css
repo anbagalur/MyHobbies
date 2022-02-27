@@ -685,8 +685,6 @@ a {
 .cid-sYxDtDKISI {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-sYxDtDKISI nav.navbar {
   position: fixed;
@@ -760,7 +758,7 @@ a {
 }
 .cid-sYxDtDKISI .dropdown-menu,
 .cid-sYxDtDKISI .navbar.opened {
-  background: #ffffff !important;
+  background: #98dee8 !important;
 }
 .cid-sYxDtDKISI .nav-item:focus,
 .cid-sYxDtDKISI .nav-link:focus {
@@ -794,8 +792,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: #98dee8;
 }
 .cid-sYxDtDKISI .navbar.opened {
   transition: all 0.3s;
@@ -935,7 +932,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-sYxDtDKISI .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #98dee8;
 }
 .cid-sYxDtDKISI .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1050,43 +1047,46 @@ a {
   font-size: 32px;
   border-radius: 50%;
   padding: 0.6rem;
-  border: 2px solid #232323;
+  border: 2px solid #4479d9;
   transition: all 0.3s;
-  color: #232323;
+  color: #4479d9;
 }
 .cid-sYxDEV8xP0 .social-row .soc-item .mbr-iconfont:hover {
-  background-color: #232323;
+  background-color: #4479d9;
   color: #ffffff;
 }
+.cid-sYxDEV8xP0 .mbr-section-title {
+  color: #2299aa;
+}
 .cid-sYxE5IehXD {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-color: #ffffff;
 }
 @media (min-width: 992px) {
   .cid-sYxE5IehXD .carousel {
-    min-height: 700px;
+    min-height: 800px;
   }
   .cid-sYxE5IehXD .carousel img {
-    max-height: 700px;
+    max-height: 800px;
     object-fit: contain;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .cid-sYxE5IehXD .carousel {
-    min-height: 455px;
+    min-height: 520px;
   }
   .cid-sYxE5IehXD .carousel img {
-    max-height: 455px;
+    max-height: 520px;
     object-fit: contain;
   }
 }
 @media (max-width: 767px) {
   .cid-sYxE5IehXD .carousel {
-    min-height: 385px;
+    min-height: 440px;
   }
   .cid-sYxE5IehXD .carousel img {
-    max-height: 385px;
+    max-height: 440px;
     object-fit: contain;
   }
   .cid-sYxE5IehXD .container .carousel-control {
@@ -1187,9 +1187,15 @@ a {
   color: #ffffff;
 }
 .cid-sYxDQMzmn9 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background-color: #9fdbf8;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #98dee8;
+}
+.cid-sYxDQMzmn9 .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-sYxDQMzmn9 P {
+  color: #4479d9;
 }
 .cid-sYyFEuX7VX {
   padding-top: 5rem;
